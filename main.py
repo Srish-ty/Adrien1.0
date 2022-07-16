@@ -1,8 +1,8 @@
 import pyttsx3
 engine = pyttsx3.init()
 
-usersay=input()
-if usersay.lower()=="hi" or usersay.lower()=="hello":
+call=input()
+if call.lower()=="hi" or call.lower()=="hello" or call.lower()=="hey":
     engine.say("Hola")
     engine.runAndWait()
 engine.say("What's your name my lady?")
